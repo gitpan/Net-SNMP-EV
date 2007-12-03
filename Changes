@@ -1,0 +1,4 @@
+Revision history for Net::SNMP::EV
+
+0.1  Mon Dec  3 18:26:50 CET 2007
+	- original version, a Glib::EV clone.

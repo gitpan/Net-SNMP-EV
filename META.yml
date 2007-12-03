@@ -1,0 +1,14 @@
+--- #YAML:1.0
+name:                Net-SNMP-EV
+version:             0.1
+abstract:            ~
+license:             ~
+generated_by:        ExtUtils::MakeMaker version 6.32
+distribution_type:   module
+requires:     
+    EV:                            1.3
+    ExtUtils::PkgConfig:           0
+    Net::SNMP:                     5
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
