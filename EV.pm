@@ -40,7 +40,7 @@ use strict;
 use Net::SNMP ();
 use EV ();
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 our @W;
 our $DISPATCHER = $Net::SNMP::DISPATCHER;
