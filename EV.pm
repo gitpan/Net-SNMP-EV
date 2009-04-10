@@ -27,8 +27,8 @@ run in parallel to anything else that uses EV or AnyEvent.
 This module does not export anything and does not require you to do
 anything special apart from loading it.
 
-The module is quite short, you cna use it to do a similar integration into
-e.g. Event or other event loops.
+The module is quite short, you can use it as example to implement a
+similar integration into e.g. Event or other event loops.
 
 =cut
 
@@ -40,7 +40,7 @@ use strict;
 use Net::SNMP ();
 use EV ();
 
-our $VERSION = '0.1';
+our $VERSION = '0.11';
 
 our @W;
 our $DISPATCHER = $Net::SNMP::DISPATCHER;

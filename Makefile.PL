@@ -8,11 +8,9 @@ my $mm = MM->new({
 	            },
     NAME         => "Net::SNMP::EV",
     VERSION_FROM => "EV.pm",
-    PREREQ_FATAL => 1,
     PREREQ_PM    => {
-       Net::SNMP           => 5,
-       EV                  => 1.3,
-       ExtUtils::PkgConfig => 0,
+       Net::SNMP => 5,
+       EV        => 1.5,
     },
 });
 
